@@ -1,0 +1,34 @@
+h1 {text-align: center}
+
+p{text-align: center}
+
+.container {
+	display: flex; justify-content: space-between; height: 200px; }
+#one { 
+	display: flex;
+	flex-direction: column;
+	width: 33%; 
+	height: 100%;
+	background-color: red;
+float: left}
+
+.title { display: flex;
+	align-self: flex-end; 
+	width: 30%;
+	justify-content: center; 
+	background-color: grey; } 
+
+#two { 
+	display: flex;
+	flex-direction: column;
+	width: 33%;
+	height: 100%; 
+	background-color: blue;
+}
+#three {
+	display: flex; 
+	flex-direction:
+		column; width: 33%;
+	height: 100%;
+	background-color: yellow; 
+}
